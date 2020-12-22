@@ -1,0 +1,25 @@
+@import "properties.scss";
+
+form {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+    #title {
+        background-color: white;
+        border: none;
+        
+    }
+
+    #body {
+        background-color: white;
+        border: none;
+        resize: none;
+        
+    }
+    
+    .btn {
+        color: $grey;
+    }
+}
+
